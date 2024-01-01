@@ -58,7 +58,7 @@ function paragraph(options) {
 }
 
 const Randorem = {
-    options: defaultOptions,
+    defaultOptions,
     word,
     sentence,
     paragraph,

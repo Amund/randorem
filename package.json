@@ -1,7 +1,16 @@
 {
     "name": "randorem",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Random Lorem Ipsum in javascript",
+    "keywords": [
+        "lorem",
+        "ipsum",
+        "generator",
+        "random",
+        "fake",
+        "dummy",
+        "text"
+    ],
     "type": "module",
     "main": "index.js",
     "scripts": {

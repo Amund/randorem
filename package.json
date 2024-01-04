@@ -1,6 +1,6 @@
 {
-    "name": "randorem",
-    "version": "1.0.0",
+    "name": "@amundsan/randorem",
+    "version": "1.0.1",
     "description": "Random Lorem Ipsum in javascript",
     "keywords": [
         "lorem",

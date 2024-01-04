@@ -5,13 +5,13 @@ Randomly generate _lorem ipsum_ like words, sentences or paragraphs.
 ## Install
 
 ```
-$ npm i --save randorem
+$ npm i --save @amundsan/randorem
 ```
 
 ## Import
 
 ```js
-import Randorem from 'randorem'
+import Randorem from '@amundsan/randorem'
 ```
 
 ## Usage

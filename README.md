@@ -12,6 +12,9 @@ $ npm i --save @amundsan/randorem
 
 ```js
 import Randorem from '@amundsan/randorem'
+
+// ...or, without node_modules pollution
+import 'https://cdn.jsdelivr.net/npm/@amundsan/randorem'
 ```
 
 ## Usage

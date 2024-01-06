@@ -58,7 +58,7 @@ function word(options) {
         text += consonants[random(0, consonants.length - 1)]
         text += vowels[random(0, vowels.length - 1)]
     }
-    return text.substring(0, maxLetters)
+    return text.substring(0, length)
 }
 
 function sentence(options) {

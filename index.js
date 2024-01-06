@@ -7,6 +7,40 @@ const defaultOptions = {
     maxLetters: 10,
 }
 
+// based on letters frequencies from
+// https://fr.wikipedia.org/wiki/Fr%C3%A9quence_d%27apparition_des_lettres#Dans_d'autres_langues
+// for english, french and spanish languages
+const consonants = [
+    'bbbbb',
+    'cccccccccccccc',
+    'dddddddddddddddddd',
+    'fffff',
+    'ggggg',
+    'hhhhhhhhhh',
+    'jj',
+    'k',
+    'lllllllllllllllllll',
+    'mmmmmmmmmmm',
+    'nnnnnnnnnnnnnnnnnnnnnnnnnnn',
+    'ppppppppp',
+    'qqq',
+    'rrrrrrrrrrrrrrrrrrrrrrrrrr',
+    'ssssssssssssssssssssssssssssss',
+    'tttttttttttttttttttttttttttt',
+    'vvvvv',
+    'www',
+    'x',
+    'z',
+].join('')
+const vowels = [
+    'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+    'eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',
+    'iiiiiiiiiiiiiiiiiiiiiiiiiiii',
+    'ooooooooooooooooooooooooooooo',
+    'uuuuuuuuuuuuuuuu',
+    'yyyy',
+].join('')
+
 function random(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min
 }
@@ -18,8 +52,6 @@ function word(options) {
         options || {}
     )
     let text = ''
-    const consonants = 'bcdfghjklmnpqrstvwxz'
-    const vowels = 'aeiouy'
     const length = random(minLetters, maxLetters)
 
     for (let i = 0; i < length; i = i + 2) {

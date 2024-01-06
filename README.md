@@ -2,6 +2,8 @@
 
 Randomly generate _lorem ipsum_ like words, sentences or paragraphs.
 
+[Check out the demo](https://amund.github.io/randorem/)
+
 ## Install
 
 ```
